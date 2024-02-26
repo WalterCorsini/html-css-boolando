@@ -125,8 +125,21 @@ main {
 
 .photo-card {
     background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
+.photo-card-2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.photo-container:hover .photo-card-2{
+    display: inline-block;
+}
 .heart {
     font-size: 2rem;
     background-color: white;
@@ -160,5 +173,8 @@ footer{
     bottom:0;
     left: 0;
     width: 100%;
+}
+
+.footer-container{
     justify-content: space-between;
 }
