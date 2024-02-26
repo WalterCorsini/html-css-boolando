@@ -15,8 +15,39 @@ a {
 }
 
 /* COMMONS */
-h4{
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.red {
+    color: red;
+    font-weight: bolder;
+}
+
+.white{
+    color: white;
+}
+
+.darkgrey {
+    color: rgb(56, 56, 56);
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+
+.black{
+    background-color: rgb(26, 26, 26);
+}
+
+h4 {
     font-weight: 100;
+}
+
+h5{
+font-weight: 100;
 }
 
 .flex {
@@ -41,9 +72,14 @@ li img {
     width: 80%;
 }
 
-.center{
+.center {
     justify-content: center;
 }
+
+.p-40{
+    padding: 40px;
+}
+
 /* HEADER */
 header {
     top: 0;
@@ -53,10 +89,7 @@ header {
 }
 
 .nav-container {
-
     justify-content: space-between;
-    /* deug */
-    /* height: 50px; */
 }
 
 .head-logo {
@@ -66,31 +99,31 @@ header {
 }
 
 /* MAIN */
-main{
+main {
     display: flex;
 
 }
 
-.cards{
+.cards {
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 100px;
 }
+
 .card-container {
     width: calc(100% / 3 - 20px);
-    padding-bottom: 100px;
-/* debug */
-    /* border: 1px solid rgb(0, 0, 0); */
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.photo-container{
+
+.photo-container {
     position: relative;
 }
 
-.photo-card{
+.photo-card {
     background-size: cover;
 }
 
-.heart{
+.heart {
     font-size: 2rem;
     background-color: white;
     position: absolute;
@@ -100,40 +133,24 @@ main{
     text-align: center;
 }
 
-.photo-container:hover .heart{
+.photo-container:hover .heart {
     color: red;
 }
 
-.bg-red{
-    background-color: red;
-}
-
-.bg-green{
-    background-color: green;
-}
-
-.red{
-    color: red;
-    font-weight:bolder;
-}
-
-.darkgrey{
-    color: rgb(56, 56, 56);
-    text-decoration: line-through;
-    font-weight: bolder;
-}
-
-.discount >span{
+.discount>span {
     color: white;
     font-weight: bold;
     padding: .2em .4em;
-
 }
 
-.discount{
- position: absolute;
- bottom: 30px;
- left: 0;
- font-size: 1.2rem;
+.discount {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    font-size: 1.2rem;
+}
 
+/*  FOOTER */
+.footer-container{
+    justify-content: space-between;
 }
