@@ -28,7 +28,7 @@ a {
     font-weight: bolder;
 }
 
-.white{
+.white {
     color: white;
 }
 
@@ -38,7 +38,7 @@ a {
     font-weight: bolder;
 }
 
-.black{
+.black {
     background-color: rgb(26, 26, 26);
 }
 
@@ -46,8 +46,8 @@ h4 {
     font-weight: 100;
 }
 
-h5{
-font-weight: 100;
+h5 {
+    font-weight: 100;
 }
 
 .flex {
@@ -69,15 +69,15 @@ li img {
 }
 
 .w-50 {
-    width: 80%;
+    width: 50%;
 }
 
 .center {
     justify-content: center;
 }
 
-.p-40{
-    padding: 40px;
+.p-20 {
+    padding: 20px;
 }
 
 /* HEADER */
@@ -130,16 +130,18 @@ main {
     left: 0;
 }
 
-.photo-card-2{
+.photo-card-2 {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.photo-container:hover .photo-card-2{
+.photo-container:hover .photo-card-2 {
     display: inline-block;
+
 }
+
 .heart {
     font-size: 2rem;
     background-color: white;
@@ -168,13 +170,13 @@ main {
 }
 
 /*  FOOTER */
-footer{
+footer {
     position: fixed;
-    bottom:0;
+    bottom: 0;
     left: 0;
     width: 100%;
 }
 
-.footer-container{
+.footer-container {
     justify-content: space-between;
 }
