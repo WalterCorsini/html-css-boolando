@@ -70,10 +70,11 @@ li img {
 
 .w-50 {
     width: 50%;
+    margin: 0 auto;
 }
 
 .center {
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .p-20 {
@@ -170,6 +171,7 @@ main {
     bottom: 30px;
     left: 0;
     font-size: 1.2rem;
+    z-index: 1;
 }
 
 /*  FOOTER */
