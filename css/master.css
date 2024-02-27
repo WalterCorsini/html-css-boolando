@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +9,6 @@ img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
 
 /* COMMONS */
 .bg-red {
@@ -40,6 +36,12 @@ a {
 
 .black {
     background-color: rgb(26, 26, 26);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
 
 h4 {
@@ -118,6 +120,7 @@ main {
 
 .photo-container {
     position: relative;
+    font-size: 1rem;
 }
 
 .photo-card {
@@ -138,22 +141,26 @@ main {
 
 .photo-container:hover .photo-card-2 {
     z-index: 1;
+    cursor: pointer;
 
 }
 
+
 .heart {
-    font-size: 2rem;
-    background-color: white;
+    /* font-size: 1em; */
     position: absolute;
+    background-color: white;
     top: 10px;
     right: 0px;
     padding: 0.2em 0.5em;
     text-align: center;
+    z-index: 3;
 }
 
-.photo-container:hover .heart {
+.heart:hover {
     color: red;
     transition-duration: 3s;
+    cursor: pointer;
 }
 
 .discount>span {
