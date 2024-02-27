@@ -124,21 +124,23 @@ main {
 }
 
 .photo-card {
-    background-size: cover;
     position: relative;
     top: 0;
     left: 0;
+
 }
 
 .photo-card-2 {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
+ 
 }
 
 .photo-container:hover .photo-card-2 {
-    display: inline-block;
+    z-index: 1;
 
 }
 
@@ -154,6 +156,7 @@ main {
 
 .photo-container:hover .heart {
     color: red;
+    transition-duration: 3s;
 }
 
 .discount>span {
@@ -174,6 +177,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 9999;
     width: 100%;
 }
 
