@@ -7,6 +7,7 @@
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 
@@ -117,15 +118,17 @@ main {
 
 }
 
-.cards {
+.card-container {
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
-.card-container {
+.cards {
     width: calc(100% / 3 - 20px);
     margin-top: 50px;
     margin-bottom: 50px;
+    height: 300px;
 }
 
 .photo-container {
@@ -155,7 +158,6 @@ main {
 
 }
 
-
 .heart {
     /* font-size: 1em; */
     position: absolute;
@@ -169,8 +171,21 @@ main {
 
 .heart:hover {
     color: red;
-    transition-duration: 3s;
+    transition-duration: 1s;
     cursor: pointer;
+}
+
+.text-container{
+    border: 0;
+    padding: 0;
+    border:1px solid lightgray;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 5px;
 }
 
 .discount>span {
